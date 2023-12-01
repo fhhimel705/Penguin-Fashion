@@ -32,8 +32,9 @@
     <!-- css style -->
     <style>
         * {
-margin: 0 auto;
-            font-family: Bebas Neue;
+            margin: 0 auto;
+            /*font-family: Bebas Neue;*/
+            max-width: 1320px;
         }
     </style>
 </head>
@@ -44,9 +45,8 @@ margin: 0 auto;
         <!-- banner -->
         <div class="md:flex  container mx-auto justify-center items-center px-4 ">
             <div class="space-y-5">
-                <h1 class="text-7xl uppercase "> <span class="text-yellow-500">Be the Penguins</span> <br>of Winter</h1>
-                <p class="text-base text-slate-800	">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At,
-                    voluptatum?</p>
+                <h1 class="text-7xl uppercase font-semibold"> <span class="text-yellow-500">Be the Penguins</span> <br>of Winter</h1>
+                <p class="text-base text-slate-800	">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At,voluptatum?</p>
                 <button
                     class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-stone-50 text-base font-medium "><svg
                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -62,11 +62,11 @@ margin: 0 auto;
     </header>
     <main class="container mx-auto">
         <section class="mt-12 ">
-            <h2 class="uppercase text-5xl ms-5 md:ms-0">WoMan Jacket</h2>
+            <h2 class="uppercase text-5xl ms-5 md:ms-0 font-semibold">WoMan's Jacket</h2>
             <!-----------------------
                  card 
                 ---------------------->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 md:p-0 lg:p-0 ">
+            <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 md:p-0 lg:p-0 mt-10 ">
                 <div class="p-4 shadow-xl rounded-xl ">
                     <div class="bg-imgbg rounded-3xl">
                         <img src="images/jacket-1.png" class="p-5" alt="">
@@ -76,7 +76,7 @@ margin: 0 auto;
                         <p class="text-cardp text-xs ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
                             aperiam?</p>
                         <div class="flex justify-between items-center">
-                            <p class="text-4xl  text-price">$234</p>
+                            <p class="text-4xl  text-price font-semibold">$234</p>
                             <button
                                 class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-stone-50 text-base font-medium "><svg
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -96,7 +96,7 @@ margin: 0 auto;
                         <p class="text-cardp text-xs ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
                             aperiam?</p>
                         <div class="flex justify-between items-center">
-                            <p class="text-4xl  text-price">$234</p>
+                            <p class="text-4xl  text-price font-semibold">$234</p>
                             <button
                                 class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-stone-50 text-base font-medium "><svg
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -116,7 +116,7 @@ margin: 0 auto;
                         <p class="text-cardp text-xs ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
                             aperiam?</p>
                         <div class="flex justify-between items-center">
-                            <p class="text-4xl  text-price">$234</p>
+                            <p class="text-4xl  text-price font-semibold">$234</p>
                             <button
                                 class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-stone-50 text-base font-medium "><svg
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -129,6 +129,104 @@ margin: 0 auto;
                 </div>
             </div>
         </section>
+        <!-- -----------
+        mans jacket
+    ---------- -->
+    <section  class="mt-8 md:mt-36 ">
+        <h2 class="uppercase text-5xl ms-5 md:ms-0 font-semibold">Man's Jacket</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 md:p-0 lg:p-0 mt-10 font-sans">
+            <div class="p-4 shadow-xl rounded-xl ">
+                <div class="bg-imgbg rounded-3xl">
+                    <img src="images/jacket-4.png" class="p-5" alt="">
+                </div>
+                <div>
+                    <h3 class="text-cardtitle text-2xl font-bold">Yellow Coat Jacket</h3>
+                    <p class="text-cardp text-xs ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+                        aperiam?</p>
+                    <div class="flex justify-between items-center">
+                        <p class="text-4xl  text-price font-semibold font-serif ">$234</p>
+                        <button
+                            class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-stone-50 text-base font-medium "><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 shadow-xl rounded-xl">
+                <div class="bg-imgbg rounded-3xl">
+                    <img src="images/jacket-5.png" class="p-5" alt="">
+                </div>
+                <div>
+                    <h3 class="text-cardtitle text-2xl font-bold">Yellow Coat Jacket</h3>
+                    <p class="text-cardp text-xs ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+                        aperiam?</p>
+                    <div class="flex justify-between items-center">
+                        <p class="text-4xl  text-price font-semibold">$234</p>
+                        <button
+                            class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-stone-50 text-base font-medium "><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 shadow-xl rounded-xl">
+                <div class="bg-imgbg rounded-3xl">
+                    <img src="images/jacket-6.png" class="p-5" alt="">
+                </div>
+                <div>
+                    <h3 class="text-cardtitle text-2xl font-bold">Yellow Coat Jacket</h3>
+                    <p class="text-cardp text-xs ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+                        aperiam?</p>
+                    <div class="flex justify-between items-center">
+                        <p class="text-4xl  text-price font-semibold">$234</p>
+                        <button
+                            class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-stone-50 text-base font-medium "><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" my-32">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class=" flex shadow-xl rounded-lg p-7 order-2 md:order-1 gap-3">
+                <img src="icons/house.png" alt="" class="w-20 h-20">
+                <div>
+                    <h4 class="text-2xl font-bold">Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="row-span-3 order-1 md:order-2 p-7">
+                <img src="images/shopping.png" alt="" >
+            </div>
+            <div class=" flex shadow-xl rounded-lg p-7 order-3 md:order-3 gap-3">
+                <img src="icons/house.png" alt="" class="w-20 h-20">
+                <div>
+                    <h4 class="text-2xl font-bold">Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class=" flex shadow-xl rounded-lg p-7 order-4 md:order-4 gap-3">
+                <img src="icons/house.png" alt="" class="w-20 h-20">
+                <div>
+                    <h4 class="text-2xl font-bold">Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+        </div>
+    </section>
 
     </main>
     <footer>
